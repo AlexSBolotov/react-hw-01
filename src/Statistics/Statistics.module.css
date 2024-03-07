@@ -1,0 +1,22 @@
+.section {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 320px;
+  padding-top: 20px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px 2px grey;
+}
+.title {
+  margin: 0 0 20px 0;
+}
+.container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  border-top: 1px solid grey;
+}

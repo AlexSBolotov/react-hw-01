@@ -1,0 +1,9 @@
+.row {
+  color: grey;
+  text-align: center;
+  background-color: #fff;
+}
+.oddRow {
+  composes: row;
+  background-color: azure;
+}

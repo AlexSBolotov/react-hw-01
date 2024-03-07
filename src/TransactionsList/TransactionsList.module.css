@@ -1,0 +1,12 @@
+.list {
+  margin-right: auto;
+  margin-left: auto;
+  width: 320px;
+  border: 1px solid grey;
+  border-radius: 4px;
+}
+.head {
+  background-color: aqua;
+  color: white;
+  text-transform: uppercase;
+}

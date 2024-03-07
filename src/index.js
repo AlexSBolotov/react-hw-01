@@ -1,11 +1,31 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-import "./index.css";
+import { createRoot } from "react-dom/client";
+import { StrictMode } from "react";
 import App from "./App";
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
+const container = document.getElementById("root");
+const root = createRoot(container);
+
 root.render(
-  <React.StrictMode>
+  <StrictMode>
     <App />
-  </React.StrictMode>
+  </StrictMode>
 );
+
+// import { createRoot } from "react-dom/client";
+
+// import "./index.css";
+
+// const container = document.querySelector("#root");
+// const root = createRoot(container);
+
+// const el1 = <span>Hello</span>;
+// const el2 = <span>World</span>;
+// const el = (
+//   <div>
+//     {el1} {el2}
+//   </div>
+// );
+
+// console.log(el);
+
+// root.render(el);
