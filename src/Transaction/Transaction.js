@@ -11,6 +11,7 @@ const Transaction = ({ type, amount, currency, odd }) => {
   );
 };
 Transaction.propTypes = {
+  odd: PropTypes.number.isRequired,
   type: PropTypes.string.isRequired,
   amount: PropTypes.string.isRequired,
   currency: PropTypes.string.isRequired,
